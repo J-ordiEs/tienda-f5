@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    vertical-align: baseline;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#welcomeContainer {
+    align-self: center;
+}
+
+#welcomeContainer h1 {
+    justify-self: center;
+}
