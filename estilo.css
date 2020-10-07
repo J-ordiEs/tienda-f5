@@ -15,9 +15,47 @@ header {
 }
 
 #welcomeContainer {
-    align-self: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
 }
 
 #welcomeContainer h1 {
-    justify-self: center;
+    text-align: center;
+    font-size: 150px;
 }
+
+#imgWelcome {
+    /* justify-self: center; */
+}
+#descriptionContainer {
+    text-align: center;
+}
+
+#functionalTitle {
+    text-align: center;
+}
+
+#infoContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#infoContainer p {
+    text-align: center;
+}
+
+#conditionsSection {
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+#logo {
+    width: 48px;
+}
+
