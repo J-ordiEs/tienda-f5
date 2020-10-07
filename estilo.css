@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +8,19 @@
     outline: none;
     background: transparent;
     vertical-align: baseline;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 header {
     display: flex;
     flex-direction: column;
+}
+
+body {
+    font-family: raleway;
 }
 
 #welcomeContainer {
@@ -59,3 +68,35 @@ footer {
     width: 48px;
 }
 
+    justify-self: center;
+}
+
+#catalogueSection {
+    display: flex;
+    flex-direction: column;
+    font-family: raleway;
+}
+
+#catalogue1,
+#catalogue3 {
+    display: flex;
+    flex-direction: row;
+}
+
+#catalogue2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.productFile {
+    background-color: #cb6200;
+    font-family: ;
+}
+
+h3 {
+    color: white;
+}
+
+.productDesc {
+    color: black;
+}
