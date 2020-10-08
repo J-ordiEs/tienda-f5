@@ -28,6 +28,7 @@ body {
     justify-items: center;
     background-color: #f4f2da;
     padding-bottom: 150px;
+    width: 100%;
 }
 
 #welcomeContainer h1 {
