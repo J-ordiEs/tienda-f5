@@ -49,6 +49,79 @@ body {
     font-size: 25px;
 }
 
+#catalogueSection {
+    display: flex;
+    flex-direction: column;
+}
+
+#catalogue1,
+#catalogue3 {
+    display: flex;
+    flex-direction: row;
+}
+
+#catalogue2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.productCont {
+    width: 50%;
+}
+
+.productImg {
+    width: 100%;
+}
+
+.productFile {
+    background-color: #cb6200;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.productFile h3 {
+    color: white;
+    padding: 20px 0px;
+    font-size: 40px;
+}
+
+.productDesc {
+    color: black;
+    padding: 20px 0px;
+}
+
+.productDesc li {
+    padding: 20px 0px;
+}
+
+#sinopsis {
+    font-size: 26px;
+    padding: 0px 9px;
+}
+
+#price {
+    font-size: 60px;
+    color: white;
+}
+
+.catButton {
+    color: white;
+    background-color: black;
+    width: 189px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.catButton:hover {
+    border: 3px solid white;
+    text-decoration: underline;
+}
+
 #functionalShopSection {
     padding: 50px 0px;
 }
@@ -105,50 +178,4 @@ footer p {
 #logo {
     width: 48px;
     padding: 10px 0px;
-}
-
-#catalogueSection {
-    display: flex;
-    flex-direction: column;
-}
-
-#catalogue1,
-#catalogue3 {
-    display: flex;
-    flex-direction: row;
-}
-
-#catalogue2 {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.productFile {
-    background-color: #cb6200;
-    width: 50%;
-}
-
-h3 {
-    color: white;
-    text-align: center;
-}
-
-li {
-    text-align: center;
-}
-
-.productCont {
-    width: 50%;
-}
-
-.productDesc {
-    color: black;
-}
-
-.productImg {
-    width: 50%;
-}
-
-Cont .productImg {
-    width: 100%;
 }
