@@ -67,6 +67,7 @@ body {
 
 .productCont {
     width: 50%;
+    background-color: #f4f2da;
 }
 
 .productImg {
@@ -138,6 +139,18 @@ body {
     justify-content: space-around;
     color: #cb6200;
     font-size: 25px;
+}
+
+#libro {
+    width: 100%;
+}
+
+#cart {
+    width: 100%;
+}
+
+#Paypal {
+    width: 100%;
 }
 
 #infoContainer p {
