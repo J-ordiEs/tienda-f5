@@ -19,13 +19,15 @@ header {
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 #welcomeContainer {
     display: grid;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
+    background-color: #f4f2da;
+    padding-bottom: 150px;
 }
 
 #welcomeContainer h1 {
@@ -33,63 +35,120 @@ body {
     font-size: 150px;
 }
 
-#imgWelcome {
-    /* justify-self: center; */
-}
-
 #descriptionContainer {
     text-align: center;
+    padding: 100px 0px;
+}
+
+#descriptionContainer h2 {
+    padding: 30px 0px;
+    font-size: 35px;
+}
+
+#descriptionContainer p {
+    font-size: 25px;
+}
+
+#functionalShopSection {
+    padding: 50px 0px;
 }
 
 #functionalTitle {
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    font-size: 35px;
 }
 
 #infoContainer {
     display: flex;
     justify-content: space-around;
+    color: #cb6200;
+    font-size: 25px;
 }
 
 #infoContainer p {
     text-align: center;
+    padding: 25px 0px;
 }
 
 #conditionsSection {
     text-align: center;
+    background-color: #cb6200;
+    padding: 100px;
+}
+
+#conditionsSection p {
+    font-size: 28px;
+}
+
+#conditionsSection button {
+    font-size: 28px;
+    color: white;
+}
+
+#conditionsSection button:hover {
+    text-decoration: underline;
 }
 
 footer {
     display: grid;
     grid-auto-columns: 1fr 1fr;
     justify-items: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 20px;
 }
 
 #logo {
     width: 48px;
+    padding: 10px 0px;
 }
 
-
-}
 #catalogueSection {
     display: flex;
     flex-direction: column;
 }
+
 #catalogue1,
 #catalogue3 {
     display: flex;
     flex-direction: row;
 }
+
 #catalogue2 {
     display: flex;
     flex-direction: row-reverse;
 }
+
 .productFile {
     background-color: #cb6200;
     width: 50%;
 }
+
 h3 {
     color: white;
+    text-align: center;
 }
+
+li {
+    text-align: center;
+}
+
+.productCont {
+    width: 50%;
+}
+
 .productDesc {
     color: black;
+}
+
+.productImg {
+    width: 50%;
+}
+
+Cont .productImg {
+    width: 100%;
 }
