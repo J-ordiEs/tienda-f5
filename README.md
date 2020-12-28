@@ -1,4 +1,4 @@
-# wheeelOfDoom
+# **tienda-f5**
 ## trabajo realizado en equipo en el bootcamp Factoría F5.
 
 Debemos diseñar y maquetar una tienda online de temática libre.
