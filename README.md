@@ -18,4 +18,9 @@ Para ello buscaremos referencias en la web.
 - Como cliente de la tienda
 - Quiero un botón que añada productos a la cesta
 - Para comprar varios productos a la vez
+
+Desarrollo en equipo Scrum en sprint de 1 semana
+
+#### Link git pages
+
  
